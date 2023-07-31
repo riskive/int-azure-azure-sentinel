@@ -3,7 +3,7 @@
   "Properties": [
     {
       "Name": "id_d",
-      "Type": "Integer"
+      "Type": "Double"
     },
     {
       "Name": "mitre_id_s",

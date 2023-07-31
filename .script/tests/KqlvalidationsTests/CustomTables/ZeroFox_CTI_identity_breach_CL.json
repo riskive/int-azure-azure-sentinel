@@ -51,7 +51,7 @@
     },
     {
       "Name": "ui_breach_id_d",
-      "Type": "Integer"
+      "Type": "Double"
     },
     {
       "Name": "ui_breach_name_s",

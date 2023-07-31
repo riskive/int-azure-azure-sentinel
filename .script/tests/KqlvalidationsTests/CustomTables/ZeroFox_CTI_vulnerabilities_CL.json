@@ -3,7 +3,7 @@
   "Properties": [
     {
       "Name": "base_score_d",
-      "Type": "Integer"
+      "Type": "Double"
     },
     {
       "Name": "description_s",
@@ -11,11 +11,11 @@
     },
     {
       "Name": "exploitability_score_d",
-      "Type": "Integer"
+      "Type": "Double"
     },
     {
       "Name": "impact_score_d",
-      "Type": "Integer"
+      "Type": "Double"
     },
     {
       "Name": "created_at_t",

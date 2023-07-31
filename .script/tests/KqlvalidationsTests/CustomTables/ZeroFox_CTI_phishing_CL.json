@@ -31,7 +31,7 @@
     },
     {
       "Name": "host_asn_d",
-      "Type": "Integer"
+      "Type": "Double"
     },
     {
       "Name": "host_geo_s",
