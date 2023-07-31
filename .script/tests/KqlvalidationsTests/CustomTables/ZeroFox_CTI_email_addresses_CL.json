@@ -19,7 +19,7 @@
         },
         {
             "Name": "tags_s",
-            "Type": "Double"
+            "Type": "String"
         }
     ]
 }

@@ -19,7 +19,7 @@
         },
         {
             "Name": "host_s",
-            "Type": "Double"
+            "Type": "String"
         },
         {
             "Name": "registrar_s",
@@ -27,7 +27,7 @@
         },
         {
             "Name": "threat_type_s",
-            "Type": "DateTime"
+            "Type": "String"
         },
         {
             "Name": "http_status_d",

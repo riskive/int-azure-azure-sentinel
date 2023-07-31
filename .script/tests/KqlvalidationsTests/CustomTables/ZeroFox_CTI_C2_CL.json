@@ -6,15 +6,7 @@
             "Type": "DateTime"
         },
         {
-            "Name": "created_at_t",
-            "Type": "DateTime"
-        },
-        {
             "Name": "domain_s",
-            "Type": "String"
-        },
-        {
-            "Name": "ip_addresses_s",
             "Type": "String"
         },
         {
@@ -26,12 +18,16 @@
             "Type": "String"
         },
         {
+            "Name": "ip_addresses_s",
+            "Type": "String"
+        },
+        {
             "Name": "updated_at_t",
             "Type": "DateTime"
         },
         {
-            "Name": "tags_s",
-            "Type": "String"
+            "Name": "created_at_t",
+            "Type": "DateTime"
         }
     ]
 }
