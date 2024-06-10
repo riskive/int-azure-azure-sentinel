@@ -53,6 +53,7 @@ class ZeroFoxClient:
         timeout: float = TIMEOUT,
         **kwargs,
     ):
+        logging.info(f"Sending {method} request to {url}")
         """Wrap request method for handling status codes."""
         response = requests.request(
             method=method,
@@ -60,6 +61,7 @@ class ZeroFoxClient:
             timeout=timeout,
             **kwargs,
         )
+        logging.info(f"Received response with status code {response.status_code}")
         if response.status_code != ok_code:
             logging.error(f"Failed to {method} {url}. Response: {response.text}")
             raise ApiResponseException(method, url=url, res=response)
