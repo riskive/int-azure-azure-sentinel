@@ -1,6 +1,11 @@
 {
     "version": "2.0",
     "logging": {
+      "logLevel": {
+        "default": "Information",
+        "Function": "Debug",
+        "Function.dark_web_collector": "Debug"
+      },
       "applicationInsights": {
         "samplingSettings": {
           "isEnabled": true,
