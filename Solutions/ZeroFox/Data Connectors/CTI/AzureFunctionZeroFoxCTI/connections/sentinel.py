@@ -31,6 +31,7 @@ class SentinelConnector:
         self.failed_sent_events_number = 0
 
     def send(self, event):
+        logging.info("sending event to Microsoft Sentinel")
         self._queue.append(event)
         queue_size = len(self._queue)
         if queue_size >= self.queue_size:
